@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import CategorySection from "./CategorySection";
 import { placeholders } from "../../utils/constants";
-import ProductSection from "./ProductSection";
 
 const Header = () => {
   const [itrated, setItreated] = useState(0);
