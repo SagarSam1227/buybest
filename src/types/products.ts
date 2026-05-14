@@ -1,0 +1,1 @@
+export type eachCategory = {icon:string,name:string}
