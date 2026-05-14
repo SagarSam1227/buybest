@@ -1,4 +1,3 @@
-import React from 'react'
 import Header from '../components/Home/Header'
 import ProductSection from '../components/Home/ProductSection'
 

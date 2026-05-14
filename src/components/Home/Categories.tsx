@@ -1,6 +1,6 @@
 import type { eachCategory } from "../../types/products";
 
-const Categories = ({ cat,i }: {cat:eachCategory,i:number}) => {
+const Categories = ({ cat}: {cat:eachCategory,i:number}) => {
   return (
     <div className="w-fit shrink-0 flex flex-col items-center">
       
