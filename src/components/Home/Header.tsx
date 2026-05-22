@@ -21,6 +21,7 @@ const Header = () => {
 
   return (
     <>
+    <div className="w-full h-fit bg-linear-to-t from-[#bf8d31] via-[white] to-[white]">
       <div className="w-[95%] pt-4 h-fit flex justify-between mx-auto">
         <div className="w-2/3 flex h-fit mb-5">
           <svg
@@ -38,10 +39,10 @@ const Header = () => {
             />
           </svg>
           <div className="w-full h-fit overflow-hidden">
-            <h3 className="font-extrabold text-white text-lg truncate">
+            <h3 className="font-extrabold text-black text-sm truncate">
               VRA 101 House{" "}
             </h3>
-            <h3 className="-mt-1 truncate text-[#ffc082]">
+            <h3 className="-mt-1 truncate text-sm text-[#c08142]">
               Cheranelloor, Friends road, edappally
             </h3>
           </div>
@@ -59,7 +60,7 @@ const Header = () => {
       </div>
       <div className="">
         <div className="w-[90%] mx-auto flex gap-2 h-14">
-          <div className="w-full content-center bg-[white] rounded-2xl h-full p-3">
+          <div className="w-full content-center border border-[#ffdfa6] bg-[white] rounded-2xl h-full p-3">
             <h3 className="text-[gray] font-bold text-sm">{`Search for ${placeholders[itrated]}`}</h3>
           </div>
           <div className="w-14 h-14 shrink-0 rounded-2xl bg-[#b86a1e]"></div>
@@ -67,9 +68,8 @@ const Header = () => {
         <CategorySection />
         {/* <ProductSection /> */}
       </div>
-    {/* <div className="w-full bg-[red] relative p-2 pb-6 g-linear-to-tr from-[#a25100] via-[#e27508] to-[#f68617]">
+    </div>
 
-    </div> */}
     </>
   );
 };

@@ -4,9 +4,9 @@ import { products } from '../../utils/constants';
 const ProductSection = () => {
   return (
 
-    <div className="w-full h-[calc(100vh-180px)] bg-linear-to-r from-[#a25100] via-[#e27508] to-[#f68617] p-3">
+    <div className="w-full h-[calc(100vh-180px)] pt-5 bg-[#bf8d31]">
 
-      <div className="w-full h-full bg-white rounded-2xl p-2 overflow-y-auto">
+      <div className="w-full h-full bg-white rounded-t-[70px] p-2 overflow-y-auto">
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
 
