@@ -21,7 +21,7 @@ const ProductCard = ({ product }: ProductProps) => {
         {product.name}
       </h3>
 
-      <p className="text-[#885601] text-sm font-semibold">
+      <p className="text-orange-500 text-sm font-semibold">
         ₹ {product.price}
       </p>
 
