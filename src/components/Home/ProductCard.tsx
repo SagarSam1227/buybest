@@ -9,7 +9,7 @@ type ProductProps = {
 
 const ProductCard = ({ product }: ProductProps) => {
   return (
-    <div className="rounded-2xl w-24 sm:w-32 p-1">
+    <div className="rounded-2xl w-28 sm:w-32 p-1">
 
       <img
         src={product.image}
