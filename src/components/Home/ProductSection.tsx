@@ -50,15 +50,14 @@ const ProductSection = () => {
             </svg>
           </div>
 
-         <div className="w-full left-0 overflow-x-auto scrollbar-hide mt-6">
-
-      <div className="flex gap-4 px-4">
-            {products.map((product)=>(
-            <OfferCard key={product.id} product={product} />
-            ))}
+          <div className="w-full left-0 overflow-x-auto scrollbar-hide mt-6">
+            <div className="flex gap-4 px-4">
+              {products.map((product) => (
+                <OfferCard key={product.id} product={product} />
+              ))}
+            </div>
+          </div>
         </div>
-        </div>
-</div>
 
         <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-2">
           {products.map((product) => (
