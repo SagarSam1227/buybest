@@ -21,7 +21,7 @@ const Header = () => {
 
   return (
     <>
-    <div className="w-full h-fit bg-linear-to-t from-[#bf8d31] via-[white] to-[white]">
+    <div className="w-full h-fit bg-linear-to-t">
       <div className="w-[95%] pt-4 h-fit flex justify-between mx-auto">
         <div className="w-2/3 flex h-fit mb-5">
           <svg
@@ -47,7 +47,7 @@ const Header = () => {
             </h3>
           </div>
         </div>
-        <div className="w-12 bg-[#cdcdcd] p-2 h-12 rounded-full float-right">
+        <div className="w-10 bg-[#cdcdcd] p-2 h-10 rounded-full float-right">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
             <path
               fill="gray"
@@ -59,11 +59,11 @@ const Header = () => {
         </div>
       </div>
       <div className="">
-        <div className="w-[90%] mx-auto flex gap-2 h-14">
+        <div className="w-[90%] mx-auto flex gap-2 h-12">
           <div className="w-full content-center border border-[#ffdfa6] bg-[white] rounded-2xl h-full p-3">
-            <h3 className="text-[gray] font-bold text-sm">{`Search for ${placeholders[itrated]}`}</h3>
+            <h3 className="text-[gray] text-sm">{`Search for ${placeholders[itrated]}`}</h3>
           </div>
-          <div className="w-14 h-14 shrink-0 rounded-2xl bg-[#b86a1e]"></div>
+          <div className="w-12 h-12 shrink-0 rounded-xl bg-[#b86a1e]"></div>
         </div>
         <CategorySection />
         {/* <ProductSection /> */}
