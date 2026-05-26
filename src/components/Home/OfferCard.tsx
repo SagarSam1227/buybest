@@ -17,13 +17,18 @@ const OfferCard = ({ product }: ProductProps) => {
         className="w-full h-24 object-cover rounded-xl"
       />
 
-      <h3 className="font-bold mt-3 text-white text truncate">
+      <h3 className="font-bold mt-3 text-white text-sm truncate">
         {product.name}
       </h3>
 
-      <p className="text-orange-500 font-semibold">
+<div className="w-fit flex gap-2 items-center">
+      <p className="text-[#885601] line-through text-xs font-semibold">
         ₹ {product.price}
       </p>
+       <p className="text-[#161615] text-sm font-semibold">
+        ₹ {product.price}
+      </p>
+</div>
 
     </div>
   );

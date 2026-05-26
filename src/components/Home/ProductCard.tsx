@@ -17,11 +17,11 @@ const ProductCard = ({ product }: ProductProps) => {
         className="w-full h-32 sm:h-40 object-cover rounded-xl"
       />
 
-      <h3 className="font-bold mt-3">
+      <h3 className="font-bold text-xs mt-3">
         {product.name}
       </h3>
 
-      <p className="text-orange-500 font-semibold">
+      <p className="text-orange-500 text-sm font-semibold">
         ₹ {product.price}
       </p>
 
