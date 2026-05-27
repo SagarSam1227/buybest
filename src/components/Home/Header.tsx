@@ -63,7 +63,7 @@ const Header = () => {
           <div className="w-full content-center border border-[#ffdfa6] bg-[white] rounded-2xl h-full p-3">
             <h3 className="text-[gray] text-sm">{`Search for ${placeholders[itrated]}`}</h3>
           </div>
-          <div className="w-12 h-12 shrink-0 rounded-xl bg-[#b86a1e]"></div>
+          <div className="w-12 h-12 shrink-0 rounded-xl bg-[#ffc082]"></div>
         </div>
         <CategorySection />
         {/* <ProductSection /> */}
