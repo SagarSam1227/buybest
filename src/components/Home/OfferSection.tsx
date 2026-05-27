@@ -3,7 +3,7 @@ import OfferCard from "./OfferCard";
 
 const OfferSection = () => {
   return (
-    <div className="w-full h-fit relative rounded-t-[60px] pb-3 rounded-b-2xl mb-2 overflow-hidden bg-[orange]">
+    <div className="w-full h-fit relative rounded-t-[60px] pb-3 rounded-b-2xl mb-2 overflow-hidden bg-[#F97316]">
       <div className="w-fit h-fit absolute -top-1">
         <svg viewBox="0 0 200 200" className="w-32 h-32">
           <defs>
